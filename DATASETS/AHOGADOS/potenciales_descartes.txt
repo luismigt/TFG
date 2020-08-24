@@ -1,0 +1,44 @@
+Descartes en funcion de los atributos del incidente:
+	IdActividad: OK, no descartaria ninguno de sus valores
+		---
+	IdCausa: OK, pero descartaria los siguientes valores (los que pongo con interrogaciones es que me generan dudas):
+		8,Suicidio
+		9,Enfermedad, ataque cardíaco o ACVA (¿?) revisar registros a ver que dicen
+		13,Homicidio, Asesinato
+		14,Accidente de Trafico (¿?)
+	IdDeteccion:----->puede ser obviable, es un atributo a posteriori del incidente
+		---
+	IdFactor: OK, no descartaria ninguno de sus valores
+		---
+	IdInterv:----->puede ser obviable, es un atributo a posteriori del incidente
+		---
+	IdOrigen:----->puede ser obviable, no aporta un valor exacto. No sabemos si es de una provincia con costa, pais con costa en caso de extranjero, etc
+		---
+	IdPronostico:----->aunque es un atributo a posteriori del incidente, puede ser muy util en términos de clasificacion
+		---
+	IdReanima::----->aunque es un atributo a posteriori del incidente, puede aportar informacion util a la hora de ver que tipo de actuaciones influyen positivamente en el desenlace no fatal de un incidente(¿?)
+		---
+	IdRiesgo: OK, no descartaria ninguno de sus valores
+		---
+	IdTipo: OK, no descartaria ninguno de sus valores
+		---
+	IdVigilancia: OK, no descartaria ninguno de sus valores
+		---
+	IdLocalizacion: OK, pero descartaria los siguientes valores (los que pongo con interrogaciones es que me generan dudas):
+		Piscinas en general (¿?)
+		4, sistemas de recogida, transporte o almacenamiento de agua
+		18,bañera mirar valores
+		19,Contenedor de agua, cubo, fuente, etc
+		
+El resto de tablas auxiliares que no aparecen aquí es, o bien porque estan en un fichero y en otro no, o bien porque he considerado que no aportaban valor. Por supuesto si ves algo con lo que no estas de acuerdo no dudes en comentarme.
+
+P.D. Cuando hablo de atribudos a posteriori del incidente me estoy refiriendo a que no han influido a la hora de que el incidente se haya producido o no.
+
+P.D. 2: cuando hablo de obviable me refiero a que podemos eliminar la columna del dataset, con todos sus valores.
+
+
+########NOTA#########
+
+
+
+revisar columnas que no varian el valor de sus registros, uniendo codigos, si hay demasiados ver si se pueden juntar en alguno

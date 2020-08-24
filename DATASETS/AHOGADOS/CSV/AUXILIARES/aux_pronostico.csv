@@ -1,0 +1,13 @@
+IdPronostico|Pronostico|Mortal
+0|Sin datos|0
+1|Rescate sin consecuencias|0
+2|Rescate y traslado a supervisión médica|0
+3|Rescate con necesidad de observación posterior|0
+4|Ahogamiento no mortal con rescate y tratamiento in situ|0
+5|Ahogamiento no mortal sin secuelas|0
+6|Ahogamiento no mortal con secuelas|0
+7|Ahogamiento mortal|1
+8|Ahogamiento no mortal con hospitalizacion|0
+9|Traumatismo/TRM|0
+10|Lesiones|0
+11|Fallecimiento Sin Ahogamiento|1
